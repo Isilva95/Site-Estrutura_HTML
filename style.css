@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #F78181;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #00BFFF;
+}
+header h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #000000;
+  text-shadow: 4px 0px 1px #777777;
+}
+header h2 {
+  font-size: 20px;
+  margin-top: -25px;
+  font-weight: bold;
+  color: #000000;
+  text-shadow: 2px 0px 1px #777777;
+}
+.image {
+  display: flex;
+  border: 5px solid #000000;
+}
+.image img {
+  width: 500px;
+  height: 270px;
+}
+.perfil {
+  display: flex;
+  justify-content: center;
+}
+figure {
+  margin: 0;
+  border-bottom: 5px solid #000000;
+  border-left: 5px solid #000000;
+  border-right: 5px solid #000000;
+  background-color: #FFFFFF;
+}
+figcaption {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  width: 210px;
+  font-size: 10px;
+  font-weight: bold;
+}
+.perfil img {
+  width: 210px;
+  height: 280px;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.title h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #000000;
+  text-shadow: 4px 0px 1px #777777;
+}
+.title h2 {
+  font-size: 20px;
+  margin-top: -25px;
+  font-weight: bold;
+  color: #000000;
+  text-shadow: 2px 0px 1px #777777;
+}
+.information {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ul {
+  color: #000000;
+  font-weight: bold;
+  font-size: 25px;
+}
+ul li {
+  font-size: 15px;
+  color: #000000;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00BFFF;
+}
+.link_information p {
+  font-size: 15px;
+  color: #000000;
+  font-weight: bold;
+}
+.link_information p a {
+  text-decoration: none;
+  color: #000000;
+}
+.link_information p a:hover {
+  color: #FE2E2E;
+}
