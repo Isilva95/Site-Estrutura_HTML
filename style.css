@@ -93,8 +93,10 @@ footer {
   justify-content: center;
   align-items: center;
   background-color: #00BFFF;
+  border: 5px solid #000000;
 }
 .link_information p {
+  padding: 20px;
   font-size: 15px;
   color: #000000;
   font-weight: bold;
